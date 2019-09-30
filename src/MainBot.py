@@ -17,6 +17,8 @@ def main():
 
     # TODO Change hjarrell to your cog name
     bot.load_extension('cogs.ben')
+    bot.load_extension('cogs.swiftlee')
+    bot.load_extension('cogs.hjarrell')
     bot.load_extension('cogs.ping')
     bot.run(BOT_TOKEN)
 
