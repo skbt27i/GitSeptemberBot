@@ -15,7 +15,9 @@ def main():
         print('Invite URL: {iurl}'.format(iurl=INVITE_URL.format(bot.user.id)))
         print('-----')
 
+    # TODO Change hjarrell to your cog name
     bot.load_extension('cogs.hjarrell')
+    bot.load_extension('cogs.ping')
     bot.run(BOT_TOKEN)
 
 if __name__ == "__main__":
