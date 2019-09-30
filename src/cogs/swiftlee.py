@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 
-class SwiftleesCog(discord.Cog, name="Swiftlee's Cog"):
+class SwiftleesCog(commands.Cog, name="Swiftlee's Cog"):
 
     def __init__(self, bot):
         self.bot = bot
