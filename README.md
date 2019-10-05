@@ -1,3 +1,5 @@
+(Used as a base to make my own custom bot)
+
 # GitSeptember Bot
 
 Here is the code for the Open Source Club's GitSeptember workshop bot.
