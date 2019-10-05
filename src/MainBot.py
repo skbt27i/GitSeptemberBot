@@ -17,7 +17,7 @@ def main():
 
     # TODO Change hjarrell to your cog name
     bot.load_extension('cogs.hjarrell')
-    bot.load_extension('cogs.ping')
+    bot.load_extension('cogs.GoonieBot')
     bot.run(BOT_TOKEN)
 
 if __name__ == "__main__":
